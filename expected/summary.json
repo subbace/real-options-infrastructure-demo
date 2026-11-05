@@ -1,0 +1,60 @@
+{
+  "cash_change_btc": "-0.024",
+  "cash_reconciliation_exact": true,
+  "cash_trace": [
+    {
+      "cash_btc": "1",
+      "future_position_usd": "0",
+      "option_position_btc": "0",
+      "stage": "Initial"
+    },
+    {
+      "cash_btc": "0.979",
+      "future_position_usd": "0",
+      "option_position_btc": "1",
+      "stage": "Option bought"
+    },
+    {
+      "cash_btc": "0.978",
+      "future_position_usd": "-100",
+      "option_position_btc": "1",
+      "stage": "Future sold"
+    },
+    {
+      "cash_btc": "0.976",
+      "future_position_usd": "0",
+      "option_position_btc": "0",
+      "stage": "Expiry settled"
+    }
+  ],
+  "classification": "SYNTHETIC_ENGINEERING_EXAMPLE_NOT_ECONOMIC_VALIDATION",
+  "data_provenance": "Fixed artificial constants in examples/run_demo.py; no RNG or market download",
+  "decision_ms": 1002,
+  "event_operations": 26,
+  "fills": {
+    "future_amount_usd": "100",
+    "future_side": "sell",
+    "option_amount_btc": "1"
+  },
+  "final_cash_btc": "0.976",
+  "hand_calculated_cash_btc": "0.976",
+  "journal_duplicate_suppressed": true,
+  "journal_hash": "eee626caec2861fad266b1ba3916904cd9ec69850c12ee1c95dee7517a8a812b",
+  "journal_records": 4,
+  "later_event_excluded": true,
+  "later_event_receive_ms": 1005,
+  "ledger_journal_hash": "24cf3ca689304afb9e964ca6f8c2c9d24324887204b385cb83fedb54aaf1fe07",
+  "ledger_journal_recovery_exact": true,
+  "ledger_state_hash": "e664d22bbdec6c5a02ed946404c5c1f91561d1d78426ce538959f9a6c41e1477",
+  "ledger_state_recovery_exact": true,
+  "liquidity_reuse_blocked": true,
+  "option_quote": {
+    "best_ask_btc": "0.02",
+    "best_bid_btc": "0.01"
+  },
+  "original_source_commit": "8666bfb10d31fefb49b0b495ab19e63022d8171e",
+  "positions_closed": true,
+  "schema": "ro01-public-demo-v1",
+  "selected_event_id": "option-opening",
+  "total_explicit_fees_btc": "0.004"
+}

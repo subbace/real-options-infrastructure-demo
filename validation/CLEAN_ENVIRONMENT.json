@@ -1,0 +1,54 @@
+{
+  "date_utc": "2026-11-05T21:38:31.552013+00:00",
+  "slug": "real-options-infrastructure-demo",
+  "fresh_local_git_clone": true,
+  "local_source_commit": "6ae2fb4659efcb87fd5eda056f83d238a1bf47ab",
+  "byte_identity_before_execution": true,
+  "steps": [
+    {
+      "command": [
+        "python",
+        "-m",
+        "pip",
+        "install",
+        "--disable-pip-version-check",
+        "-r",
+        "requirements.txt"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 2.307353
+    },
+    {
+      "command": [
+        "python",
+        "-B",
+        "tools/validate_public_demo.py",
+        "--label",
+        "clean312_attempt01"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 2.340354
+    },
+    {
+      "command": [
+        "python",
+        "-m",
+        "pip",
+        "check"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 0.871694
+    }
+  ],
+  "environment": {
+    "python": "3.12.14",
+    "platform": "Windows",
+    "isolated_prefix": true
+  },
+  "installed_distributions": [],
+  "status": "PASS",
+  "original_core_tests_passed": 59,
+  "new_wrapper_tests_passed": 5,
+  "source_changes_after_validation": "Documentation and release metadata only; tested source code unchanged.",
+  "packaging_preflight": "First clone had line-ending byte changes before tests. Preserved; recovered in a separate clone using explicit attributes. No test failure removed."
+}

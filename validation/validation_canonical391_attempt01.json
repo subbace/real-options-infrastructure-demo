@@ -1,0 +1,79 @@
+{
+  "command_interpreter": "python means the interpreter running this validator",
+  "commands": [
+    {
+      "command": [
+        "python",
+        "-B",
+        "tools/validate_real_options_foundation_ro01.py",
+        "--output-dir",
+        "output/ro01_canonical391_attempt01"
+      ],
+      "exit_code": 0,
+      "runner_summary": {
+        "cpu_elapsed_seconds": "0.421875",
+        "economic_evaluation": "NOT_PERFORMED",
+        "event_operations": 217,
+        "output_bytes": 23132,
+        "receipt_sha256": "9647F51B0976648ED05C45654A3C2A3AA3E9A5DC1580F138770B3B95F0A478A3",
+        "status": "TECHNICAL_FIXTURE_PASS",
+        "tests_run": 59
+      },
+      "step": "original_ro01",
+      "timed_out": false,
+      "wall_seconds": 1.383114
+    },
+    {
+      "command": [
+        "python",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "demo_tests",
+        "-v"
+      ],
+      "exit_code": 0,
+      "result_lines": [
+        "Ran 5 tests in 0.125s",
+        "OK"
+      ],
+      "step": "public_wrapper_tests",
+      "timed_out": false,
+      "wall_seconds": 0.500874
+    },
+    {
+      "command": [
+        "python",
+        "-B",
+        "-m",
+        "examples.run_demo",
+        "--output",
+        "output/demo_canonical391_attempt01"
+      ],
+      "exit_code": 0,
+      "runner_summary": {
+        "cpu_seconds": 0.0,
+        "event_operations": 26,
+        "final_cash_btc": "0.976",
+        "status": "PASS",
+        "wall_seconds": 0.017361
+      },
+      "step": "public_demo",
+      "timed_out": false,
+      "wall_seconds": 0.341948
+    }
+  ],
+  "economic_validation": false,
+  "generated_utc": "2026-11-05T21:33:27.673754+00:00",
+  "label": "canonical391_attempt01",
+  "machine": "AMD64",
+  "original_research_replicated": false,
+  "platform": "Windows",
+  "python_implementation": "CPython",
+  "python_version": "3.9.1",
+  "schema": "ro01-public-validation-v1",
+  "status": "PASS",
+  "third_party_dependencies": []
+}

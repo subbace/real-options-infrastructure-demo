@@ -1,0 +1,2 @@
+# No third-party dependencies. This package uses Python's standard library.
+# Python 3.9 or newer; see validation records for the versions actually tested.

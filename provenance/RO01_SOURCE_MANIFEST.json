@@ -1,0 +1,131 @@
+{
+  "classification": "LOCAL_SOURCE_PACKAGE_NOT_PUBLISHED",
+  "economic_performance_claim": false,
+  "file_allowlist": [
+    "README.md",
+    "REPRODUCTION.md",
+    "protocols/REAL_OPTIONS_DATA_AND_LEDGER_CONTRACT_V1.md",
+    "protocols/REAL_OPTIONS_FOUNDATION_RO01_EXECUTION_V1.md",
+    "protocols/REAL_OPTIONS_RESEARCH_PROGRAM_V1.md",
+    "src/__init__.py",
+    "src/real_options_foundation/__init__.py",
+    "src/real_options_foundation/adapter.py",
+    "src/real_options_foundation/book.py",
+    "src/real_options_foundation/common.py",
+    "src/real_options_foundation/events.py",
+    "src/real_options_foundation/journal.py",
+    "src/real_options_foundation/ledger.py",
+    "tests/__init__.py",
+    "tests/test_real_options_book.py",
+    "tests/test_real_options_foundation.py",
+    "tests/test_real_options_ledger.py",
+    "tools/validate_real_options_foundation_ro01.py"
+  ],
+  "files": {
+    "README.md": {
+      "bytes": 6211,
+      "sha256": "A9EBA0F8AC0A3931FE7B73AEC98C5B1B9834FE5D1BA4DB7CD16112368F2F0EA3",
+      "source": "docs/PORTFOLIO_OVERVIEW.md"
+    },
+    "REPRODUCTION.md": {
+      "bytes": 1097,
+      "sha256": "C4BC87D43675B4982809AB85563DA3EBE0CB9C6D5C8650B5F519476A939FF3EB",
+      "source": "GENERATED_PORTABLE_CONTENT"
+    },
+    "protocols/REAL_OPTIONS_DATA_AND_LEDGER_CONTRACT_V1.md": {
+      "bytes": 6942,
+      "sha256": "291332C1BAF216E3D1B2F583A5E570B3077519209A4AEA7F3C85EB209C1A02BE",
+      "source": "protocols/REAL_OPTIONS_DATA_AND_LEDGER_CONTRACT_V1.md"
+    },
+    "protocols/REAL_OPTIONS_FOUNDATION_RO01_EXECUTION_V1.md": {
+      "bytes": 5748,
+      "sha256": "DBC6ADB938016512F1F591BB314A1FBB5F82A6384CC62D49994A2D2A7ABD1ED9",
+      "source": "protocols/REAL_OPTIONS_FOUNDATION_RO01_EXECUTION_V1.md"
+    },
+    "protocols/REAL_OPTIONS_RESEARCH_PROGRAM_V1.md": {
+      "bytes": 12084,
+      "sha256": "378D4E152825AE4370C58598351897FC1624F334A34ECBBAF000C89A09F842DB",
+      "source": "protocols/REAL_OPTIONS_RESEARCH_PROGRAM_V1.md"
+    },
+    "src/__init__.py": {
+      "bytes": 66,
+      "sha256": "2A063E2DC4A5EC9F4F19F5AF6A7A5A71C71154126B19025D80DB692F96D20C9E",
+      "source": "GENERATED_PORTABLE_CONTENT"
+    },
+    "src/real_options_foundation/__init__.py": {
+      "bytes": 106,
+      "sha256": "76F28998CEF104D2AFE9782B60DDD598094FC6C028C91947E104DA1089D16CD3",
+      "source": "src/real_options_foundation/__init__.py"
+    },
+    "src/real_options_foundation/adapter.py": {
+      "bytes": 7140,
+      "sha256": "93139D1C3F96EB110A7BE822A77B98813B4370F151CC5D05008568CCB0ECC96F",
+      "source": "src/real_options_foundation/adapter.py"
+    },
+    "src/real_options_foundation/book.py": {
+      "bytes": 14541,
+      "sha256": "68511DD8263DF23EE66E5A649E0DA313280D34003E8646CC6B451D87D385156F",
+      "source": "src/real_options_foundation/book.py"
+    },
+    "src/real_options_foundation/common.py": {
+      "bytes": 7039,
+      "sha256": "0B08AF47E716F3D66E763D9E0EAE047F981ECD209FE0B87D00F98B1D1DAE9263",
+      "source": "src/real_options_foundation/common.py"
+    },
+    "src/real_options_foundation/events.py": {
+      "bytes": 3734,
+      "sha256": "B9512D3FF338AA1820277FD274A7E9AB97EF8E15A1C0D8233F8363C00DCBDDE5",
+      "source": "src/real_options_foundation/events.py"
+    },
+    "src/real_options_foundation/journal.py": {
+      "bytes": 3006,
+      "sha256": "C1A8089A3FF119963E3C8BA600DC4A9B218AD6D981F1D62AE34F86A7BB4E8A69",
+      "source": "src/real_options_foundation/journal.py"
+    },
+    "src/real_options_foundation/ledger.py": {
+      "bytes": 25125,
+      "sha256": "BD07489096BE5B7EFBB7CE021E98F7AEC30434FD7B83BD3F6DA7AB2A18FB7511",
+      "source": "src/real_options_foundation/ledger.py"
+    },
+    "tests/__init__.py": {
+      "bytes": 56,
+      "sha256": "321AA399BE3D01430F62BDE55EFE42FA2C033FC0C6B89734E8658240FB6C1F3C",
+      "source": "GENERATED_PORTABLE_CONTENT"
+    },
+    "tests/test_real_options_book.py": {
+      "bytes": 17571,
+      "sha256": "511C10785B4B872BAA0F00E2ED056EF4DC3916FBFF7A9001891A8E5B34ADF7DE",
+      "source": "tests/test_real_options_book.py"
+    },
+    "tests/test_real_options_foundation.py": {
+      "bytes": 11750,
+      "sha256": "A6DCC4DA29608B268A41538D312053033A610A8B21D46B3E196CA57973C2F5B8",
+      "source": "tests/test_real_options_foundation.py"
+    },
+    "tests/test_real_options_ledger.py": {
+      "bytes": 20885,
+      "sha256": "E432964F5FEDE5042EE34535E691D44D3FF59C62A6AA6FFFE692D2B93633030E",
+      "source": "tests/test_real_options_ledger.py"
+    },
+    "tools/validate_real_options_foundation_ro01.py": {
+      "bytes": 18387,
+      "sha256": "C4C029F604EEF74F62197A34881DAF80032480EAE28032D52E43B3CDA5D080AF",
+      "source": "tools/validate_real_options_foundation_ro01.py"
+    }
+  },
+  "fresh_extraction_validation": "NOT_CERTIFIED_BY_PACKAGING",
+  "generated_utc": "2026-10-22T07:35:26.211074+00:00",
+  "git": {
+    "available": true,
+    "branch": "master",
+    "commit": "8666bfb10d31fefb49b0b495ab19e63022d8171e",
+    "interpretation": "Source hashes bind packaged bytes; observed Git HEAD does not seal uncommitted changes",
+    "scientifically_sealed": false,
+    "working_tree": "CLEAN"
+  },
+  "license_decision": "UNRESOLVED; no project or data licence chosen automatically",
+  "schema": "real-options-ro01-curated-portfolio-v1",
+  "scientific_execution": "NONE",
+  "self_hash_policy": "This manifest lists all other members; archive SHA-256 is returned separately",
+  "source_root_paths_included": false
+}

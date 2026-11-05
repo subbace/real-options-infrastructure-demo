@@ -1,0 +1,5 @@
+stage,cash_btc,option_position_btc,future_position_usd
+Initial,1,0,0
+Option bought,0.979,1,0
+Future sold,0.978,1,-100
+Expiry settled,0.976,0,0
